@@ -1,0 +1,7 @@
+services:
+  release-validator:
+    build: .
+    ports:
+      - "5005:5005"
+    environment:
+      - RELEASE_REGION=EU-CENTRAL
